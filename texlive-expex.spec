@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 5.0b
 Name:		texlive-expex
-Version:	5.0b
-Release:	5
+Version:	5.1b
+Release:	1
 Summary:	Format linguistic examples and glosses, with reference capabilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/expex
