@@ -1,18 +1,12 @@
-# revision 33163
-# category Package
-# catalog-ctan /macros/plain/contrib/expex
-# catalog-date 2014-03-12 20:21:38 +0100
-# catalog-license lppl
-# catalog-version 5.0b
 Name:		texlive-expex
-Version:	5.1b
-Release:	2
+Version:	44499
+Release:	1
 Summary:	Format linguistic examples and glosses, with reference capabilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/expex
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ and parts of examples. The package can be used with LaTex using
 the .sty wrapper or with PlainTex.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -46,7 +40,7 @@ the .sty wrapper or with PlainTex.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
