@@ -1,6 +1,6 @@
 Name:		texlive-expex
 Version:	44499
-Release:	1
+Release:	2
 Summary:	Format linguistic examples and glosses, with reference capabilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/expex
