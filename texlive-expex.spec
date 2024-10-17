@@ -3,7 +3,7 @@ Version:	44499
 Release:	2
 Summary:	Format linguistic examples and glosses, with reference capabilities
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/expex
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/expex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expex.doc.r%{version}.tar.xz
